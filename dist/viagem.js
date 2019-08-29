@@ -9,7 +9,7 @@ var Viagem = /** @class */ (function () {
         return dis;
     };
     Viagem.prototype.consumo = function () {
-        var cons = this.distancia() * this.rendimento;
+        var cons = this.distancia() / this.rendimento;
         return cons;
     };
     return Viagem;
