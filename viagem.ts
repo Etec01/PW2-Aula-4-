@@ -1,12 +1,11 @@
 class Viagem{
     constructor(public tempoGasto:number,public velocidadeMedia:number,public rendimento:number){}
     distancia():number{
-        let dis:number = this.tempoGasto * this.velocidadeMedia;
-     
-        return dis ;
+         
+        return this.tempoGasto * this.velocidadeMedia; 
     }
     consumo():number{
-        let cons:number =this.distancia() / this.rendimento;
-    return cons;
+         
+    return this.distancia() / this.rendimento;
     }
 }
