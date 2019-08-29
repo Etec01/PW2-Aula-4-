@@ -1,4 +1,4 @@
-class Viagem{
+export class Viagem{
     constructor(public tempoGasto:number,public velocidadeMedia:number,public rendimento:number){}
     distancia():number{
          
@@ -6,6 +6,7 @@ class Viagem{
     }
     consumo():number{
          
-    return this.distancia() / this.rendimento;
+        return this.distancia() / this.rendimento;
     }
+
 }

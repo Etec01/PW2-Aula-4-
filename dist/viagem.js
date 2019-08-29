@@ -1,3 +1,5 @@
+"use strict";
+exports.__esModule = true;
 var Viagem = /** @class */ (function () {
     function Viagem(tempoGasto, velocidadeMedia, rendimento) {
         this.tempoGasto = tempoGasto;
@@ -12,3 +14,4 @@ var Viagem = /** @class */ (function () {
     };
     return Viagem;
 }());
+exports.Viagem = Viagem;
